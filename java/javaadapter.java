@@ -1,4 +1,4 @@
-package adapter;
+﻿package adapter;
 
 import java.util.Queue;
 import java.util.LinkedList;
