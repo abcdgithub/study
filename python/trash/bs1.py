@@ -8,7 +8,7 @@ import sys
 import win32com.client
 import pythoncom
 
-
+.
 class dbinsert:
 	host='127.0.0.1'
 	port=3306
