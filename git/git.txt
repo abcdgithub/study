@@ -68,4 +68,9 @@ git commit -m{메시지} : 해당 메시지로 커밋
 git push : 푸쉬 
 --pull
 
--a
+--merge
+git merge {브런치명} : 해당 브런치 머지 
+--stash 
+git stash 현재상태 저장 
+git stash pop 가장 최근꺼 복구 
+
