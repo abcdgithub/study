@@ -80,11 +80,3 @@ git stash drop : git stash 특정  삭제
 git stash clear : 전체 삭제 
 
 b
-a
-<<<<<<< HEAD
-b
-a
-=======
-c
-c
->>>>>>> master
