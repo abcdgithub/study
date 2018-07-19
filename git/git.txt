@@ -68,4 +68,4 @@ git commit -m{메시지} : 해당 메시지로 커밋
 git push : 푸쉬 
 --pull
 
--
+-a
