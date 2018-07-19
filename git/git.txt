@@ -45,25 +45,8 @@ concept guides. See 'git help <command>' or 'git he
 
 
 git status
-git log 
+
 git branch {브런치명}
 git branch --list : 브런치 리스트 
 git branch -d {브런치명} : 브런치 삭제  
 git checkout {브런치명} : 브런치 이동(체크아웃)
-git checkout -b {브런치명} : 브랜치가 없으면 브랜치를 생성하고 이동한다.
-
---diff
-git diff --cached 스테이지에 올라와 있는거 비교 
---add
-git add . : 스테이지 전체 올리기 
-git add {디렉토리/파일명} : 특정 파일 스테이지에 올리기 
---discard
-git checkout -- {파일명} :특정 파일 폐기 
---reset
-git reset : 스테이지 내리기 
-git reset {디렉토리/파일명} : 특정 파일 스테이지에 내리기  
---commit
-git commit -m{메시지} : 해당 메시지로 커밋 
---push 
-git push : 푸쉬 
---pull
