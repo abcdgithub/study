@@ -81,3 +81,5 @@ git stash clear : 전체 삭제
 
 b
 a
+
+c
