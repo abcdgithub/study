@@ -81,5 +81,6 @@ git stash clear : 전체 삭제
 
 <<<<<<< HEAD
 b
+d
 =======
 >>>>>>> master
