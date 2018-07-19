@@ -72,6 +72,8 @@ git push : 푸쉬
 git merge {브런치명} : 해당 브런치 머지 
 --stash 
 git stash : 현재상태 저장 
+git stash save {스테이시명}: 스테이지명으로 현재상태 저장 
+git stash -{스테이시명}: 스테이지명으로 불러옴
 git stash pop : 가장 최근꺼 복구 
 git stash apply : stash 에서 복구  하지만 stash list 에서 빠지지 않는다 
 git stash drop : git stash 특정  삭제 
