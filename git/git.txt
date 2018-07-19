@@ -78,3 +78,5 @@ git stash pop : 가장 최근꺼 복구
 git stash apply : stash 에서 복구  하지만 stash list 에서 빠지지 않는다 
 git stash drop : git stash 특정  삭제 
 git stash clear : 전체 삭제 
+
+-a
