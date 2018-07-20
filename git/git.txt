@@ -53,8 +53,9 @@ git checkout {브런치명} : 브런치 이동(체크아웃)
 git checkout -b {브런치명} : 브랜치가 없으면 브랜치를 생성하고 이동한다.
 
 --diff
-git diff --cached 스테이지에 올라와 있는거 비교 
-
+git diff : 스테이지에 올라와 있는거 비교 
+git diff {커밋키1} {커밋키2} : 2개의 커멋키 비교 
+git diff {브란치1} {브란치2} : 2개의 브란치 비교 
 --add
 git add . : 스테이지 전체 올리기 
 git add {디렉토리/파일명} : 특정 파일 스테이지에 올리기 
@@ -80,7 +81,7 @@ git push : 푸쉬
 --pull
 
 --merge
-git merge {브런치명} : 해당 브런치 머지 
+git merge {브런치명} : 해당 브런치 master에 머지 
 --stash 
 git stash : 현재상태 저장 
 git stash save {스테이시명}: 스테이지명으로 현재상태 저장 
@@ -91,5 +92,23 @@ git stash drop : git stash 특정  삭제
 git stash clear : 전체 삭제 
 
 
-a
-b
+--log
+git log => git diff
+git log -n {숫자} : n개의 커밋 리스트
+git log -p : 커밋 리스트와 비교를 동시에 
+git log follow {디렉토리}: 특정 디렉토리 커밋 리스트 
+git log --branches --graph --decorate --oneline : 로그에 모든 브랜치를 표시하고, 그래프로 표현하고, 브랜치 명을 표시하고, 한줄로 표시할 때
+
+
+
+
+
+commit 56667af6860567a45c8f1847689e38e1bac11a14 (origin/master, origin/HEAD)
+Author: 이경찬 <lkc0203@waug.com>
+Date:   Fri Jul 20 11:37:43 2018 +0900
+
+    d
+
+commit 3075753a6ba413720319e415cae81f707a7661bc
+Author: 이경찬 <lkc0203@waug.com>
+Date:   Fri Jul 20 11:28:32 2018 +0900
