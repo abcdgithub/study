@@ -54,18 +54,29 @@ git checkout -b {브런치명} : 브랜치가 없으면 브랜치를 생성하�
 
 --diff
 git diff --cached 스테이지에 올라와 있는거 비교 
+
 --add
 git add . : 스테이지 전체 올리기 
 git add {디렉토리/파일명} : 특정 파일 스테이지에 올리기 
+
 --discard
 git checkout -- {파일명} :특정 파일 폐기 
+
 --reset
 git reset : 스테이지 내리기 
 git reset {디렉토리/파일명} : 특정 파일 스테이지에 내리기  
+git reset HEAD^ : 최종 커밋을 취소. 워킹트리는 보존됨. (커밋은 했으나 push하지 않은 경우 유용)
+git reset HEAD~2 : 마지막 2개의 커밋을 취소. 워킹트리는 보존됨.
+git reset --hard HEAD~2 : 마지막 2개의 커밋을 취소. index 및 워킹트리 모두 원복됨.
+git reset --hard ORIG_HEAD : 머지한 것을 이미 커밋했을 때,  그 커밋을 취소. (잘못된 머지를 이미 커밋한 경우 유용)
+git revert HEAD : HEAD에서 변경한 내역을 취소하는 새로운 커밋 발행(undo commit). (커밋을 이미 push 해버린 경우 유용)
+
 --commit
 git commit -m{메시지} : 해당 메시지로 커밋 
+git commit -a -m{메시지} : 스테이징 올리고 , 해당 메시지로 커밋 
 --push 
 git push : 푸쉬 
+
 --pull
 
 --merge
@@ -78,8 +89,5 @@ git stash pop : 가장 최근꺼 복구
 git stash apply : stash 에서 복구  하지만 stash list 에서 빠지지 않는다 
 git stash drop : git stash 특정  삭제 
 git stash clear : 전체 삭제 
-
-a
-
 
 
