@@ -86,7 +86,7 @@ git push : 푸쉬
 
 --merge
 git merge {브런치명} : 해당 브런치 master에 머지 
---stash 
+--stash git
 git stash : 현재상태 저장 
 git stash save {스테이시명}: 스테이지명으로 현재상태 저장 
 git stash (pop|apply) stash@{0} : 해당 스테이지로 불러옴
@@ -106,3 +106,4 @@ git log --name-status --branches --graph --decorate --oneline : 로그에 모든
 
 
 aa
+gg
