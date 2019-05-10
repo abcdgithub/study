@@ -1,0 +1,13 @@
+파일 업로드 
+http://www.semusa.org/blog/8f82b881-3aed-44b2-a8d6-de8721880f36/
+https://riptutorial.com/ko/django/example/24805/%EC%9E%A5%EA%B3%A0-%EC%96%91%EC%8B%9D%EC%9C%BC%EB%A1%9C-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C
+
+전역변수 
+https://mingrammer.com/ways-to-manage-the-configuration-in-python/
+
+로또 
+https://jjeongil.tistory.com/163
+https://chobocho.tistory.com/2461015
+
+티스토리 
+https://tistory.github.io/document-tistory-apis/apis/v1/post/write.html
