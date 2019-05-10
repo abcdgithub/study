@@ -11,3 +11,12 @@ https://chobocho.tistory.com/2461015
 
 티스토리 
 https://tistory.github.io/document-tistory-apis/apis/v1/post/write.html
+
+소셜 로그인 
+https://beomi.github.io/2017/02/08/Setup-SocialAuth-for-Django/
+
+사람인 
+http://api.saramin.co.kr/documents/
+
+에디터 
+https://github.com/django-ckeditor/django-ckeditor#demo-test-application
