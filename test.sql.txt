@@ -20,3 +20,4 @@ http://api.saramin.co.kr/documents/
 
 에디터 
 https://github.com/django-ckeditor/django-ckeditor#demo-test-application
+https://bookpark.github.io/2018-02-01/django-ckeditor
