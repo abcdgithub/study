@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import config
 import util
+from bs4 import BeautifulSoup
 
 class fssapi:
 	authKey=config.apikey002
@@ -9,7 +10,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/tip.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -41,7 +42,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/fcnInfo.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -67,7 +68,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/bodoInfo.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -94,7 +95,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/recruitInfo.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -124,7 +125,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/fnncMrkt.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -156,7 +157,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/fnncMngInfo.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -187,7 +188,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/fvsttGnrl.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -219,7 +220,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/fealmMng.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -252,7 +253,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/bankMngmt.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
@@ -284,7 +285,7 @@ class fssapi:
 		url="http://www.fss.or.kr/fss/kr/openApi/api/invtTrend.jsp?apiType=%s&startDate=%s&endDate=%s&authKey=%s" %(apiType,startDate,endDate ,self.authKey)
 		fakeHeader = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 		r=requests.get(url, headers=fakeHeader)
-		soup = BeautifulSoup.BeautifulSoup(r.content)
+		soup = BeautifulSoup(r.content)
 		r.close()
 		# soup = bs4(r, "html.parser")
 		result =[]
