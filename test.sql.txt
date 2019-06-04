@@ -52,3 +52,19 @@ https://kr.investing.com/webmaster-tools/
 
 참고
 https://enterkey.tistory.com/180
+
+http://www.mashup.or.kr/business/main/main.do
+https://kosis.kr/serviceInfo/openAPIGuide.do
+http://data.seoul.go.kr/
+
+
+
+bootstrap
+https://speckyboy.com/plugins-for-extending-bootstrap/
+
+---
+https://ezio.tistory.com/182
+https://www.facebook.com/coinkorea/posts/1809010415798492/
+https://kr.investing.com/webmaster-tools/rss
+http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=freeboard&wr_id=1387
+http://w3devlabs.net/wp/?p=50
